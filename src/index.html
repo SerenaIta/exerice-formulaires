@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>eikon parcel starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+  </head>
+  <body>
+    <h2>Formulaire 1</h2>
+    <form>
+      <input type="text" id="firstname" name="firstname" placeholder="Prénom" />
+      <input
+        type="text"
+        id="secondname"
+        name="secondname"
+        placeholder="Nom de famille"
+      />
+      <br />
+      <label>
+        <input type="radio" name="language" value="Français" />
+        Français
+      </label>
+      <br />
+      <label>
+        <input type="radio" name="language" value="Allemand" />
+        Allemand
+      </label>
+      <br />
+      <label>
+        <input type="radio" name="language" value="Italien" />
+        Italien
+      </label>
+      <br />
+      <label>
+        <input type="checkbox" name="conditions" />
+        S'abboner à la newsletter
+      </label>
+      <br />
+      <label>
+        <input type="checkbox" name="conditions" />
+        J'accepte les conditions générales
+      </label>
+      <br />
+      <select id="country" name="country">
+        <option value="CH">Suisse</option>
+        <option value="DE">Allemagne</option>
+        <option value="IT">Italie</option>
+      </select>
+      <br />
+      <label for="remarque">remarque</label>
+      <br />
+      <textarea id="remarque" name="remarque"></textarea>
+    </form>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
