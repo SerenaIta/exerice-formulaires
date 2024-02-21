@@ -1,3 +1,39 @@
 @import "base";
 @import "layout";
 @import "modules/example";
+
+::placeholder {
+  font-size: 18px;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 476px;
+  border: solid 1px black;
+  padding: 17px 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+div {
+  padding: 20px 0;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  height: 27vh;
+}
+
+input,
+select {
+  font-size: 18px;
+}
+
+// ----------------------------
+// comment définir/séléctionner non pas une classe masi un attribut dans les balises comme input :
+
+// input[type="text"] {
+//   background-color: green;
+// }

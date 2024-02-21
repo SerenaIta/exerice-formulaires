@@ -15,10 +15,6 @@
   padding: 0;
 }
 
-html {
-  font-size: 25px;
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -42,7 +38,3 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
-
-::placeholder {
-  font-size: 25px;
-}

@@ -5,50 +5,65 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h2>Formulaire 1</h2>
     <form>
-      <input type="text" id="firstname" name="firstname" placeholder="Prénom" />
-      <input
-        type="text"
-        id="secondname"
-        name="secondname"
-        placeholder="Nom de famille"
-      />
-      <br />
-      <label>
-        <input type="radio" name="language" value="Français" />
-        Français
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="language" value="Allemand" />
-        Allemand
-      </label>
-      <br />
-      <label>
-        <input type="radio" name="language" value="Italien" />
-        Italien
-      </label>
-      <br />
-      <label>
-        <input type="checkbox" name="conditions" />
-        S'abboner à la newsletter
-      </label>
-      <br />
-      <label>
-        <input type="checkbox" name="conditions" />
-        J'accepte les conditions générales
-      </label>
-      <br />
-      <select id="country" name="country">
-        <option value="CH">Suisse</option>
-        <option value="DE">Allemagne</option>
-        <option value="IT">Italie</option>
-      </select>
-      <br />
-      <label for="remarque">remarque</label>
+      <div>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          placeholder="Prénom"
+        />
+        <input
+          type="text"
+          id="secondname"
+          name="secondname"
+          placeholder="Nom de famille"
+        />
+      </div>
+      <div>
+        <label>
+          <input type="radio" name="language" value="Français" />
+          Français
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="language" value="Allemand" />
+          Allemand
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="language" value="Italien" />
+          Italien
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" name="conditions" />
+          S'abboner à la newsletter
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" name="conditions" />
+          J'accepte les conditions générales
+        </label>
+      </div>
+      <div>
+        <select id="country" name="country">
+          <option value="CH">Suisse</option>
+          <option value="DE">Allemagne</option>
+          <option value="IT">Italie</option>
+        </select>
+      </div>
+      <label for="remarque">Remarque</label>
       <br />
       <textarea id="remarque" name="remarque"></textarea>
     </form>
